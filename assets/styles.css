@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-login-container {
+    background-image: url("./img/wallpaper_login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Form */
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    background: rgba(255,255,255, 0.5);
+    border: none;
+}
+
+/* User Label */
+
+.user-label {
+    position: relative;
+    margin: 10px 0px;
+    opacity: 1;
+}
+
+.user-label:before {
+    color: #24486e;
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./svg/user-solid.svg") center / contain no-repeat;
+    opacity: 1;
+}
+
+.input-user {
+    padding: 1rem 40px;
+    background-color: #d0d4df;
+    border: none;
+    width: 370px;
+    border-radius: 3px;
+    opacity: 1;
+
+}
+
+/* Password Label */
+
+.password-label {
+    position: relative;
+    margin: 10px 0px;
+    opacity: 1;
+}
+
+.password-label:before {
+    color: #24486e !important;
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./svg/lock-solid.svg") center / contain no-repeat;
+    opacity: 1;
+}
+
+.input-pass {
+    padding: 1rem 40px;
+    background-color: #d0d4df;
+    border: none;
+    width: 370px;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+/* Logo */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-arrow-academy {
+    height: 140px;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Button */
+
+.button-container {
+    margin: 30px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-login {
+    padding: 1rem;
+    background: #743681;
+    color: #449c04;
+    opacity: 0.6;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.button-login:hover {
+    opacity: 1;
+    
+}
